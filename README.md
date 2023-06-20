@@ -28,12 +28,12 @@ curl --location --request POST 'http://localhost:8080/home-hub/remote/3/0'
 
 This endpoint is used to undo a previous operation.
 
-curl --location --request POST 'http://localhost:8080/home-hub/remote/3/0'
+curl --location --request POST 'http://localhost:8080/home-hub/remote/undo'
 ### POST /home-hub/appliances/{applianceName}
 
 This endpoint is used to register a device/appliance with Home Hub server. Please be noted that an appliance/device needs to be registered first.
 
-curl --location --request POST 'http://localhost:8080/home-hub/remote/3/0'
+curl --location --request POST 'http://localhost:8080/home-hub/appliance/lights'
 ## Dependencies
 
 The `HomeHubController` class depends on the following components:
